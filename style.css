@@ -1,8 +1,10 @@
 .so-div{
+    width: 80%;
+    margin: 0 10%;
     
 }
 .so-div h2{
-    margin-left: 20%;
+    /* margin-left: 20%; */
 }
 .so-div ul{
     list-style: none;
