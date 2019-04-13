@@ -61,3 +61,7 @@ footer .top a {
     border: 1px solid white;
     line-height: 50px;
 }
+
+.background-image {
+    background-size: cover;
+}
