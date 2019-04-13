@@ -1,11 +1,29 @@
 .so-div{
     padding: 2em;
-    background-color: #e0de5f;
-    border-radius: 2em;
+    /* background-color: #e0de5f; */
+    border-radius: 1em;
+    transition: 0.5s;
 }
+/* .so-div:hover{
+    box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.6);
+} */
 .so-div h2{
+    text-align: center;
+    margin-bottom: 1em;
 
 }
+.so-div p{
+    text-align: center;
+    margin-bottom: 2em;
+}
 .so-div ul{
+    padding: 0;
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.so-div li{
+    text-align: center;
+    margin-bottom: 0.5em;
 }
