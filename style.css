@@ -90,8 +90,12 @@ footer {
 }
 
 footer .top a {
-    color: white;
+    color: #ffffff;
     font-size: 35px;
-    border: 1px solid white;
-    line-height: 50px;
+    border: 1px solid #ffffff;
+    line-height: 85px;
+}
+footer .member p{
+    color: #ffffff;
+    text-align: center;
 }
