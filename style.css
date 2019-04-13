@@ -1,33 +1,37 @@
-.so-div{
+.so-div {
     padding: 2em;
     /* background-color: #e0de5f; */
     border-radius: 1em;
     transition: 0.5s;
 }
+
 /* .so-div:hover{
     box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.6);
 } */
-.so-div h2{
+
+.so-div h2 {
     text-align: center;
     margin-bottom: 1em;
-
 }
-.so-div p{
+
+.so-div p {
     text-align: center;
     margin-bottom: 2em;
 }
-.so-div ul{
+
+.so-div ul {
     padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
 }
 
-.so-div li{
+.so-div li {
     text-align: center;
     margin-bottom: 0.5em;
 }
-.so-div ul a{
+
+.so-div ul a {
     text-decoration: none;
     color: #aaa;
 }
@@ -55,6 +59,7 @@ header {
     text-shadow: 1px 1px 3px #333;
     box-shadow: 1px 1px 3px #333;
     border: 2px solid #000;
+    background-size: cover;
 }
 
 .t-about {
@@ -100,8 +105,12 @@ footer .top a {
     font-size: 35px;
     border: 1px solid white;
     line-height: 50px;
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 >>>>>>> 8711365cf53d0e5d5a4670d2e4613f83e7fbc60f
 =======
 >>>>>>> 9443bf3b8450ef12e21cdf8bb1c2f4e2e3cf07bc
+=======
+}
+>>>>>>> 113de63d906649b4da3772f013f42a913cf34c55
