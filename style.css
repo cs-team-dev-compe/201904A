@@ -100,9 +100,22 @@ footer {
 }
 
 footer .top a {
-    color: white;
+    color: #ffffff;
     font-size: 35px;
+<<<<<<< HEAD
+    border: 1px solid #ffffff;
+    line-height: 85px;
+}
+footer .member p{
+    color: #ffffff;
+    text-align: center;
+=======
     border: 1px solid white;
     line-height: 50px;
+<<<<<<< HEAD
 
 }
+=======
+>>>>>>> 1beee4ec0d09a1c8710ba18a5cd461d50f9966c9
+}
+>>>>>>> bd38b8c6eef967dcecbd2830f467ff42d8e33119
