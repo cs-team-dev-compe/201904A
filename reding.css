@@ -1,0 +1,192 @@
+body {
+    margin: 0
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: serif;
+}
+
+.header {
+    height: 80px;
+    background-color: #007BC7;
+    align-content: center;
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    margin: 0
+}
+
+.subject {
+    color: white;
+    display: flex;
+    font-family: serif
+}
+
+.justify {
+    display: flex;
+    align-items: center;
+}
+
+h2:first-letter {
+    color: #007BC7;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+h3 {
+    font-family: serif;
+}
+
+h4 {
+    font-family: serif;
+}
+
+li {
+    margin-right: 10px;
+}
+
+.background-img {
+    background-image: url(http://blogimg.goo.ne.jp/user_image/5a/31/1b43b51f2feb767c22901a3d605c214f.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: 100% 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+}
+
+.profile-moji {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.img-moji-1 {
+    color: white;
+    font-style: inherit;
+    font-size: 2em;
+    text-align: center;
+    font-family: serif;
+}
+
+.img-moji-2 {
+    color: white;
+    font-size: 2em;
+    font-style: inherit;
+    text-align: center;
+    font-family: serif;
+}
+
+.profile-0 {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-1 {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile-2 {
+    height: 100%;
+}
+
+.moji {
+    font-size: 1.3em;
+}
+
+.selfpr-0 {
+    background-image: url(file:///C:/Windows/Web/Wallpaper/Theme1/img1.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+}
+
+.selfpr-1 {
+    padding-top: 30px;
+}
+
+.selfpr-2 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.selfpr-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.selfpr-4 {
+    width: 25%;
+    background-color: white;
+    opacity: 0.6;
+}
+
+.selfpr-5 {
+    text-align: center;
+}
+
+.vision-0 {
+    width: 100%;
+}
+
+.vision-1 {
+    text-align: center;
+}
+
+.vision-2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #007BC7
+}
+
+.vision-3 {
+    text-align: center;
+    font-family: serif;
+}
+
+.vision-4 {
+    font-size: 2em;
+    text-align: center;
+    color: #007BC7;
+    font-family: sans-serif;
+    position: relative;
+    bottom: -46px;
+}
+
+.footer-1 {
+    width: 100%;
+    height: 200px;
+    background-color: #007BC7;
+    position: relative;
+}
+
+.footer-2 {
+    background-color: #007BC7;
+    border: 5px solid white;
+    font-size: 1.7em;
+    position: absolute;
+    top: 47%;
+    left: 47%;
+}
+
+.footer-3 {
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 36%
+}
