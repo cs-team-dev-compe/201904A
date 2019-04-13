@@ -1,0 +1,193 @@
+main header{
+    width:100%;
+    height: 500px;
+    background-image: url(./image/平面図.auto-Temp0003.png),
+                      url(./image/平面図.天井付きauto-Temp0002.png);
+    background-size:contain;
+    background-repeat: no-repeat,
+                       no-repeat;
+    background-position: left 2px center,
+                         right 2px center;
+    position: relative;
+}
+main header section{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+main header h1{
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    width:100%;
+}
+main header p{
+    text-align: center;
+}
+nav{
+    background-color: rgb(0, 199, 106);
+    color:white;
+    widows: 10%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+}
+ul{
+    list-style: none;
+    margin-left: auto;
+
+
+}
+li{
+    display: inline-block;
+}
+a{
+    display:block;
+    width:100px;
+    color: white;
+    text-decoration: none;
+}
+article{
+    position: relative;
+}
+#Profile{
+    text-align: center;
+}
+.under{
+    border-bottom: solid 1px rgb(0, 199, 106);
+}
+#Profile h2:first-letter{
+    color: rgb(0, 199, 106);
+}
+.i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.house img{
+    widows: 30%;
+    height: 400px;
+    display: inline-block;
+}
+img{
+    display: block;
+    align-items: center;
+    width:400px;
+    height: 200px;
+}
+
+
+
+#SelfPR{
+     
+    text-align: center; 
+}
+.j{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.house2 img{
+    width:30%;
+    height:400px;
+    display: inline-block;
+}
+#SelfPR h2:first-letter{
+    color: rgb(0, 199, 106);
+}
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.flex1{
+    width:200px;
+    height:300px;
+    border:3px solid white;
+    background-color: rgba(255, 255,255,0.5);
+    color:   rgb(0, 199, 106);
+}
+.flex1 p{
+    color:black;
+}
+.flex2{
+    width:200px;
+    height:300px;
+    border:3px solid white;
+    background-color: rgba(255, 255,255,0.5);
+    color:  rgb(0, 199, 106);
+}
+.flex2 p{
+    color:black;
+}
+.flex3{
+    width:200px;
+    height:300px;
+    border:3px solid white;
+    background-color: rgba(255, 255,255,0.5);
+    color:  rgb(0, 199, 106);
+}
+.flex3 p{
+    color:black;
+}
+#Vision{
+    
+    position: relative;
+    text-align: center;
+    
+}
+.k{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.house3 img{
+    width:30%;
+    height:400px;
+    display: inline-block;
+
+}
+#Vision h2::first-letter{
+    color: rgb(0, 199, 106);
+}
+.vish2{
+    color: rgb(0, 199, 106);
+}
+.visp{
+    display: inline-block;
+    text-align: center;
+}
+.next{
+    position: absolute;
+    color:  rgb(0, 199, 106);
+    bottom:0;
+    left:50%;
+    transform: translate(-50%,100%);
+    font-size:50pX;
+}
+footer{
+    width:100%;
+    height:200px;
+    background-color:rgb(0, 199, 106);
+    position: relative;
+    text-align: center;
+}
+footer a{
+    border:5px solid white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+}
+footer p{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,50%)
+}
